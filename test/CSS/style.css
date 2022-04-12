@@ -1,0 +1,41 @@
+.box{
+    width: 30px;
+    height: 30px;
+}
+.aquamarine{
+    background-color: aquamarine;
+}
+.yellow{
+    background-color: yellow;
+}
+.violet{
+    background-color: violet;
+}
+#flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.posi_p{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.posi_p2{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.header{
+    position: fixed;
+    height: 150px;
+    background-color: aquamarine;
+    z-index: -1;
+}
+
+.jq_css{
+    background-color: violet;
+}
